@@ -1,2 +1,2 @@
-# NLMS
-NLMS --> New Linux Machine Setup
+# NMS
+NMS --> New Machine Setup
