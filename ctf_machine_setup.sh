@@ -12,7 +12,6 @@ export PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH" >> ~/.zshrc
 source ~/.zshrc
 
 echo "Installing CTF Tools"
-
 sleep 2s
 
 mkdir ~/tools
@@ -22,7 +21,6 @@ cd ~/tools
 echo "Installing Stegnography tools"
 
 wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar ; chmod +x stegsolve.jar
-
 wget https://code.soundsoftware.ac.uk/attachments/download/2812/SonicVisualiser-4.4-x86_64.AppImage ; chmod +x SonicVisualiser-4.4-x86_64.AppImage
 
 ------------------------------------
@@ -34,9 +32,7 @@ git clone https://github.com/zweisamkeit/RSHack.git
 echo "Installing Reverse-Engineering tools"
 
 sudo apt install gdb -y
-
 wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.0.4_build/ghidra_10.0.4_PUBLIC_20210928.zip ; unzip ghidra_10.0.4_PUBLIC_20210928.zip ; rm ghidra_10.0.4_PUBLIC_20210928.zip
-
 git clone https://github.com/radareorg/radare2 ; cd radare2 ; sys/install.sh
 
 ---------------------------
