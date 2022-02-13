@@ -24,7 +24,7 @@ git clone https://github.com/defparam/smuggler.git
 git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
 git clone https://github.com/GerbenJavado/LinkFinder.git
-git clone https://github.com/maaaaz/webscreenshot
+git clone https://github.com/maaaaz/webscreenshot.git
 
 sudo pip3 install pywhat
 
